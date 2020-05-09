@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- My styles-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>side</title>
+</head>
+<body>
+	<div id="side-bar">
+		<div class="toggle-btn" id="toggle-btn">
+			<img src="images/shopping-cart.png" alt="images">
+		</div>
+		<div class="ul-fond">
+			
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Services</li>
+			<li>Contact</li>
+		</ul>
+		</div>
+	</div>
+  
+  <h4><p>Clique</p>sur le panier
+	<i>après tu pourras changer les couleurs etc.. <br> si après ca gate les choses la bas c'est plus mon probleme ooh <img src="images/happy.png" alt="emoji" class="emoji"> <br>je me suis debrouillée j'ai fait les dangereuses recherches inh....!!!</i>
+</h4>
+
+
+<script>
+  var toggleBtn = document.getElementById('toggle-btn');
+toggleBtn.addEventListener('click' ,  show);
+
+function show(){
+	var sideBar = document.getElementById('side-bar');
+	sideBar.classList.toggle('active');
+}
+</script>
+
+	</body>
+      
+      <!-- My Scripts -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
